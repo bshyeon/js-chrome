@@ -1,2 +1,2 @@
 # js-chrome-app
-nomad js-chrome-app leture new 2021 version
+nomad js-chrome-app lecture new 2021 version
