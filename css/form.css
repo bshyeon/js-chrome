@@ -1,0 +1,45 @@
+input {
+  color: var(--main-color);
+  font-size: 20px;
+  padding: 3px 0;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  font-size: 18px;
+  color: var(--main-color);
+}
+
+input:focus {
+  border-bottom: 2px solid var(--main-color);
+  animation: toDo 0.5s linear;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+.login-form button {
+  color: var(--main-color);
+  background-color: black;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.todo-form {
+  margin-bottom: 5px;
+}
+
+@keyframes toDo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
